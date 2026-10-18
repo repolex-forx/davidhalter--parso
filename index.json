@@ -1,0 +1,11 @@
+{
+  "org": "davidhalter",
+  "repo": "parso",
+  "versions": [
+    {
+      "commit": "b26da16316da46e4770d589ed5f8d404531a22af",
+      "tag": "",
+      "parsed_at": "2026-10-18T04:47:52.174893+00:00"
+    }
+  ]
+}
