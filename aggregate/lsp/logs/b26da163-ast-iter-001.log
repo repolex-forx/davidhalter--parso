@@ -1,0 +1,7 @@
+[2026-10-18T04:41:47Z] === AST ITERATION 1 START | repo=davidhalter/parso sha=b26da163 ===
+[2026-10-18T04:41:47Z] [iter=1] PHASE START: ast repo=davidhalter/parso sha=b26da163
+[2026-10-18T04:41:47Z] [iter=1] Building AST aggregate chunks
+[2026-10-18T04:42:45Z] [iter=1] AST chunks built count=1 triples=554010
+[2026-10-18T04:42:45Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/b26da16316da46e4770d589ed5f8d404531a22af/.complete
+[2026-10-18T04:42:45Z] [iter=1] PHASE END: ast elapsed_s=59 elapsed_min=1.0
+[2026-10-18T04:42:45Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json

@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/davidhalter/parso/commit/b26da16316da46e4770d589ed5f8d404531a22af",
       "git:hexsha": "b26da16316da46e4770d589ed5f8d404531a22af",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/davidhalter/parso/commit/082cb9919ffe856415db31334d725063ec6aa515",
