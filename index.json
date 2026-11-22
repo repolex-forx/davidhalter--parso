@@ -3,6 +3,11 @@
   "repo": "parso",
   "versions": [
     {
+      "commit": "28005a5cf68cdbd721c4ca11fc82f912b3e11aa3",
+      "tag": "v0.8.6",
+      "parsed_at": "2026-11-22T01:03:34.447932+00:00"
+    },
+    {
       "commit": "b26da16316da46e4770d589ed5f8d404531a22af",
       "tag": "",
       "parsed_at": "2026-10-18T04:47:52.174893+00:00"
