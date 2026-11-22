@@ -1,0 +1,25 @@
+[2026-11-22T00:52:37Z] === ENRICH ITERATION 1 START | repo=davidhalter/parso sha=28005a5c ===
+[2026-11-22T00:52:37Z] [iter=1] PHASE START: enrich repo=davidhalter/parso sha=28005a5c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/28005a5c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/28005a5cf68cdbd721c4ca11fc82f912b3e11aa3.nq.gz
+[2026-11-22T00:52:37Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T00:52:41Z] [iter=1] AST store loaded triples=550679 load_secs=4 mem_mb=776 MB
+[2026-11-22T00:52:41Z] [iter=1] Step 2: Finding LSP targets mem_mb=776 MB
+[2026-11-22T00:52:42Z] [iter=1] LSP targets found call_sites=3060 imports=255 extends=124 implements=0 secs=1
+[2026-11-22T00:52:42Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=776 MB
+[2026-11-22T00:52:45Z] [iter=1] Position index built positions=38583 nodes_with_types=48890 secs=3 mem_mb=776 MB
+[2026-11-22T00:52:45Z] [iter=1] Step 3: Starting LSP resolution mem_mb=776 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T00:52:45Z] [iter=1] Resolving target type target_type=call_site count=3060
+[2026-11-22T00:53:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=1 resolved=206 errors=0 current=test/test_get_code.py
+[2026-11-22T00:53:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.2 files_done=9 resolved=489 errors=0 current=parso/tree.py
+[2026-11-22T00:54:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.8 files_done=12 resolved=794 errors=0 current=parso/parser.py
+[2026-11-22T00:55:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=14 resolved=988 errors=0 current=conftest.py
+[2026-11-22T00:55:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.1 files_done=18 resolved=1409 errors=0 current=test/normalizer_issue_files/E101.py
+[2026-11-22T00:56:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.7 files_done=31 resolved=1680 errors=0 current=parso/cache.py
+[2026-11-22T00:56:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.2 files_done=38 resolved=1984 errors=0 current=test/normalizer_issue_files/E72.py
+[2026-11-22T00:57:09Z] [iter=1] Target type resolved target_type=call_site resolved=2236 errors=0 secs=264 mem_mb=776 MB
+[2026-11-22T00:57:09Z] [iter=1] Resolving target type target_type=import_statement count=255
+[2026-11-22T00:57:13Z] [iter=1] Target type resolved target_type=import_statement resolved=219 errors=0 secs=5 mem_mb=776 MB
+[2026-11-22T00:57:13Z] [iter=1] Resolving target type target_type=extends_clause count=124
+[2026-11-22T00:57:15Z] [iter=1] Target type resolved target_type=extends_clause resolved=122 errors=0 secs=2 mem_mb=776 MB
+[2026-11-22T01:00:27Z] [iter=1] Step 5: Writing final enrichment file triples=41595
+[2026-11-22T01:00:27Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/28005a5cf68cdbd721c4ca11fc82f912b3e11aa3.nq.gz size_kb=868
+[2026-11-22T01:00:27Z] [iter=1] PHASE END: enrich elapsed_s=470 elapsed_min=7.8 total_triples=41595
